@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <div class="inner-nav">
+        <a href="/"
+          >HOME
+          <hr />
+        </a>
+        <a href="/portfolio">
+          PORTFOLIO
+          <hr class="active-page" />
+        </a>
+        <p class="nav-logo">BV</p>
+        <a href="/about">
+          ABOUT ME
+          <hr />
+        </a>
+        <a href="/unique">
+          UNIQUE
+          <hr />
+        </a>
+      </div>
+    </nav>
+
+    <main class="portfolio-main">
+      <section class="projects-sect">
+        <h1 class="title-sect" data-aos="fade-down" data-aos-duration="1000">PROJECTS</h1>
+        <div class="divider-container" data-aos="zoom-in">
+          <hr class="left-piece" />
+          <div class="center-piece"></div>
+          <hr class="right-piece" />
+        </div>
+        <div class="projects-container">
+          <!--1st project item-->
+          <figure class="project-item" data-aos="flip-right" data-aos-duration="1000">
+            <img class="project-thumbnail" src="./images/project1.png" alt="project thumbnail" />
+            <div class="caption-container">
+              <figcaption>Simple Inventoy Management System</figcaption>
+              <div class="techs-used-container">
+                <!--Next.js logo-->
+                <svg
+                  fill="#000000"
+                  width="20px"
+                  height="20px"
+                  viewBox="-3.2 -3.2 38.40 38.40"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    id="SVGRepo_bgCarrier"
+                    stroke-width="0"
+                    transform="translate(4.16,4.16), scale(0.74)"
+                  >
+                    <rect
+                      x="-3.2"
+                      y="-3.2"
+                      width="38.40"
+                      height="38.40"
+                      rx="19.2"
+                      fill="#ffffff"
+                      strokewidth="0"
+                    ></rect>
+                  </g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M23.749 30.005c-0.119 0.063-0.109 0.083 0.005 0.025 0.037-0.015 0.068-0.036 0.095-0.061 0-0.021 0-0.021-0.1 0.036zM23.989 29.875c-0.057 0.047-0.057 0.047 0.011 0.016 0.036-0.021 0.068-0.041 0.068-0.047 0-0.027-0.016-0.021-0.079 0.031zM24.145 29.781c-0.057 0.047-0.057 0.047 0.011 0.016 0.037-0.021 0.068-0.043 0.068-0.048 0-0.025-0.016-0.020-0.079 0.032zM24.303 29.688c-0.057 0.047-0.057 0.047 0.009 0.015 0.037-0.020 0.068-0.041 0.068-0.047 0-0.025-0.016-0.020-0.077 0.032zM24.516 29.547c-0.109 0.073-0.147 0.12-0.047 0.068 0.067-0.041 0.181-0.131 0.161-0.131-0.043 0.016-0.079 0.043-0.115 0.063zM14.953 0.011c-0.073 0.005-0.292 0.025-0.484 0.041-4.548 0.412-8.803 2.86-11.5 6.631-1.491 2.067-2.459 4.468-2.824 6.989-0.129 0.88-0.145 1.14-0.145 2.333 0 1.192 0.016 1.448 0.145 2.328 0.871 6.011 5.147 11.057 10.943 12.927 1.043 0.333 2.136 0.563 3.381 0.704 0.484 0.052 2.577 0.052 3.061 0 2.152-0.24 3.969-0.771 5.767-1.688 0.276-0.14 0.328-0.177 0.291-0.208-0.88-1.161-1.744-2.323-2.609-3.495l-2.557-3.453-3.203-4.745c-1.068-1.588-2.14-3.172-3.229-4.744-0.011 0-0.025 2.109-0.031 4.681-0.011 4.505-0.011 4.688-0.068 4.792-0.057 0.125-0.151 0.229-0.276 0.287-0.099 0.047-0.188 0.057-0.661 0.057h-0.541l-0.141-0.088c-0.088-0.057-0.161-0.136-0.208-0.229l-0.068-0.141 0.005-6.271 0.011-6.271 0.099-0.125c0.063-0.077 0.141-0.14 0.229-0.187 0.131-0.063 0.183-0.073 0.724-0.073 0.635 0 0.74 0.025 0.907 0.208 1.296 1.932 2.588 3.869 3.859 5.812 2.079 3.152 4.917 7.453 6.312 9.563l2.537 3.839 0.125-0.083c1.219-0.813 2.328-1.781 3.285-2.885 2.016-2.308 3.324-5.147 3.767-8.177 0.129-0.88 0.145-1.141 0.145-2.333 0-1.193-0.016-1.448-0.145-2.328-0.871-6.011-5.147-11.057-10.943-12.928-1.084-0.343-2.199-0.577-3.328-0.697-0.303-0.031-2.371-0.068-2.631-0.041zM21.5 9.688c0.151 0.072 0.265 0.208 0.317 0.364 0.027 0.084 0.032 1.823 0.027 5.74l-0.011 5.624-0.989-1.52-0.995-1.521v-4.083c0-2.647 0.011-4.131 0.025-4.204 0.047-0.167 0.161-0.307 0.313-0.395 0.124-0.063 0.172-0.068 0.667-0.068 0.463 0 0.541 0.005 0.645 0.063z"
+                    ></path>
+                  </g>
+                </svg>
+                <!--Prisma Logo-->
+                <svg
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <title>file_type_light_prisma</title>
+                    <path
+                      d="M25.21,24.21,12.739,27.928a.525.525,0,0,1-.667-.606L16.528,5.811a.43.43,0,0,1,.809-.094l8.249,17.661A.6.6,0,0,1,25.21,24.21Zm2.139-.878L17.8,2.883h0A1.531,1.531,0,0,0,16.491,2a1.513,1.513,0,0,0-1.4.729L4.736,19.648a1.592,1.592,0,0,0,.018,1.7l5.064,7.909a1.628,1.628,0,0,0,1.83.678l14.7-4.383a1.6,1.6,0,0,0,1-2.218Z"
+                      style="fill: #0c344b; fill-rule: evenodd"
+                    ></path>
+                  </g>
+                </svg>
+                <!--typescript logo-->
+                <svg
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <title>file_type_typescript_official</title>
+                    <rect
+                      x="2"
+                      y="2"
+                      width="28"
+                      height="28"
+                      rx="1.312"
+                      style="fill: #3178c6"
+                    ></rect>
+                    <path
+                      d="M18.245,23.759v3.068a6.492,6.492,0,0,0,1.764.575,11.56,11.56,0,0,0,2.146.192,9.968,9.968,0,0,0,2.088-.211,5.11,5.11,0,0,0,1.735-.7,3.542,3.542,0,0,0,1.181-1.266,4.469,4.469,0,0,0,.186-3.394,3.409,3.409,0,0,0-.717-1.117,5.236,5.236,0,0,0-1.123-.877,12.027,12.027,0,0,0-1.477-.734q-.6-.249-1.08-.484a5.5,5.5,0,0,1-.813-.479,2.089,2.089,0,0,1-.516-.518,1.091,1.091,0,0,1-.181-.618,1.039,1.039,0,0,1,.162-.571,1.4,1.4,0,0,1,.459-.436,2.439,2.439,0,0,1,.726-.283,4.211,4.211,0,0,1,.956-.1,5.942,5.942,0,0,1,.808.058,6.292,6.292,0,0,1,.856.177,5.994,5.994,0,0,1,.836.3,4.657,4.657,0,0,1,.751.422V13.9a7.509,7.509,0,0,0-1.525-.4,12.426,12.426,0,0,0-1.9-.129,8.767,8.767,0,0,0-2.064.235,5.239,5.239,0,0,0-1.716.733,3.655,3.655,0,0,0-1.171,1.271,3.731,3.731,0,0,0-.431,1.845,3.588,3.588,0,0,0,.789,2.34,6,6,0,0,0,2.395,1.639q.63.26,1.175.509a6.458,6.458,0,0,1,.942.517,2.463,2.463,0,0,1,.626.585,1.2,1.2,0,0,1,.23.719,1.1,1.1,0,0,1-.144.552,1.269,1.269,0,0,1-.435.441,2.381,2.381,0,0,1-.726.292,4.377,4.377,0,0,1-1.018.105,5.773,5.773,0,0,1-1.969-.35A5.874,5.874,0,0,1,18.245,23.759Zm-5.154-7.638h4V13.594H5.938v2.527H9.92V27.375h3.171Z"
+                      style="fill: #ffffff; fill-rule: evenodd"
+                    ></path>
+                  </g>
+                </svg>
+                <!--tailwindcss logo-->
+                <svg
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <title>file_type_tailwind</title>
+                    <path
+                      d="M9,13.7q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q11.1,10.9,9,13.7ZM2,22.1q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q4.1,19.3,2,22.1Z"
+                      style="fill: #44a8b3"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <p class="description">Finals exam in IT Elective 3</p>
+            <div class="project-links-container">
+              <a
+                id="liveLink"
+                href="https://simple-inventory-management-system.vercel.app/"
+                target="_blank"
+                >Live</a
+              >
+              <a
+                id="srcCodeLink"
+                href="https://github.com/br14nn/simple-inventory-management-system"
+                target="_blank"
+                >&lt;&#47;&gt;</a
+              >
+            </div>
+          </figure>
+          <!--2nd project item-->
+          <figure
+            class="project-item"
+            data-aos="flip-right"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <img class="project-thumbnail" src="./images/project2.png" alt="project thumbnail" />
+            <div class="caption-container">
+              <figcaption>Age Calculator App</figcaption>
+              <div class="techs-used-container">
+                <!--Vite logo-->
+                <svg
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <title>file_type_vite</title>
+                    <path
+                      d="M29.8836 6.146L16.7418 29.6457c-.2714.4851-.9684.488-1.2439.0052L2.0956 6.1482c-.3-.5262.1498-1.1635.746-1.057l13.156 2.3516a.7144.7144 0 00.2537-.0004l12.8808-2.3478c.5942-.1083 1.0463.5241.7515 1.0513z"
+                      fill="url(#paint0_linear)"
+                    ></path>
+                    <path
+                      d="M22.2644 2.0069l-9.7253 1.9056a.3571.3571 0 00-.2879.3294l-.5982 10.1038c-.014.238.2045.4227.4367.3691l2.7077-.6248c.2534-.0585.4823.1647.4302.4194l-.8044 3.9393c-.0542.265.1947.4918.4536.4132l1.6724-.5082c.2593-.0787.5084.1487.4536.414l-1.2784 6.1877c-.08.387.4348.598.6495.2662L16.5173 25 24.442 9.1848c.1327-.2648-.096-.5667-.387-.5106l-2.787.5379c-.262.0505-.4848-.1934-.4109-.4497l1.8191-6.306c.074-.2568-.1496-.5009-.4118-.4495z"
+                      fill="url(#paint1_linear)"
+                    ></path>
+                    <defs id="defs50">
+                      <linearGradient
+                        id="paint0_linear"
+                        x1="6.0002"
+                        y1="32.9999"
+                        x2="235"
+                        y2="344"
+                        gradientUnits="userSpaceOnUse"
+                        gradientTransform="matrix(.07142 0 0 .07142 1.3398 1.8944)"
+                      >
+                        <stop stop-color="#41D1FF" id="stop38"></stop>
+                        <stop offset="1" stop-color="#BD34FE" id="stop40"></stop>
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear"
+                        x1="194.651"
+                        y1="8.8182"
+                        x2="236.076"
+                        y2="292.989"
+                        gradientUnits="userSpaceOnUse"
+                        gradientTransform="matrix(.07142 0 0 .07142 1.3398 1.8944)"
+                      >
+                        <stop stop-color="#FFEA83" id="stop43"></stop>
+                        <stop offset=".0833" stop-color="#FFDD35" id="stop45"></stop>
+                        <stop offset="1" stop-color="#FFA800" id="stop47"></stop>
+                      </linearGradient>
+                    </defs>
+                  </g>
+                </svg>
+                <!--React Logo-->
+                <svg
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 64 64"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xml:space="preserve"
+                  xmlns:serif="http://www.serif.com/"
+                  style="
+                    fill-rule: evenodd;
+                    clip-rule: evenodd;
+                    stroke-linejoin: round;
+                    stroke-miterlimit: 2;
+                  "
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <rect
+                      id="Icons"
+                      x="-1088"
+                      y="-64"
+                      width="1280"
+                      height="800"
+                      style="fill: none"
+                    ></rect>
+                    <g id="Icons1" serif:id="Icons">
+                      <g id="Strike"></g>
+                      <g id="H1"></g>
+                      <g id="H2"></g>
+                      <g id="H3"></g>
+                      <g id="list-ul"></g>
+                      <g id="hamburger-1"></g>
+                      <g id="hamburger-2"></g>
+                      <g id="list-ol"></g>
+                      <g id="list-task"></g>
+                      <g id="trash"></g>
+                      <g id="vertical-menu"></g>
+                      <g id="horizontal-menu"></g>
+                      <g id="sidebar-2"></g>
+                      <g id="Pen"></g>
+                      <g id="Pen1" serif:id="Pen"></g>
+                      <g id="clock"></g>
+                      <g id="external-link"></g>
+                      <g id="hr"></g>
+                      <g id="info"></g>
+                      <g id="warning"></g>
+                      <g id="plus-circle"></g>
+                      <g id="minus-circle"></g>
+                      <g id="vue"></g>
+                      <g id="cog"></g>
+                      <g id="logo"></g>
+                      <g id="radio-check"></g>
+                      <g id="eye-slash"></g>
+                      <g id="eye"></g>
+                      <g id="toggle-off"></g>
+                      <g id="shredder"></g>
+                      <g id="spinner--loading--dots-" serif:id="spinner [loading, dots]"></g>
+                      <g id="react">
+                        <circle cx="32.001" cy="31.955" r="4.478" style="fill: #00d8ff"></circle>
+                        <path
+                          d="M32.33,22.516c7.635,0.052 15.965,0.609 21.683,5.708c0.168,0.15 0.33,0.306 0.488,0.467c1.349,1.375 2.054,3.595 0.965,5.422c-2.234,3.751 -7.23,5.387 -12.067,6.394c-7.234,1.506 -14.798,1.518 -22.029,0.192c-4.161,-0.764 -8.416,-2.103 -11.373,-4.904c-1.151,-1.09 -2.135,-2.524 -1.981,-4.12c0.25,-2.582 2.727,-4.239 4.812,-5.361c5.791,-3.116 12.847,-3.813 19.502,-3.798Zm-0.554,1.173c-7.224,0.049 -15.043,0.51 -20.621,5.129c-0.195,0.161 -0.383,0.33 -0.564,0.507c-0.117,0.114 -0.23,0.233 -0.339,0.355c-0.979,1.1 -1.316,2.867 -0.392,4.188c0.93,1.329 2.342,2.288 3.796,3.07c5.438,2.924 11.864,3.443 18.129,3.465c6.343,0.023 12.884,-0.555 18.487,-3.452c2.232,-1.155 4.744,-2.851 4.655,-5.035c-0.082,-2.004 -2.036,-3.242 -3.499,-4.126c-0.396,-0.239 -0.803,-0.46 -1.216,-0.668c-5.562,-2.787 -12.08,-3.447 -18.436,-3.433Z"
+                          style="fill: #00d8ff"
+                        ></path>
+                        <path
+                          d="M42.115,10.703c2.793,0.071 4.24,3.429 4.431,5.909c0.038,0.493 0.052,0.988 0.046,1.483c-0.006,0.536 -0.035,1.072 -0.082,1.606c-0.589,6.612 -3.608,12.909 -7.163,18.724c-3.477,5.688 -7.717,11.36 -13.485,13.996c-1.907,0.872 -4.175,1.41 -5.863,0.437c-2.314,-1.333 -2.567,-4.451 -2.524,-6.816c0.011,-0.581 0.049,-1.162 0.109,-1.741c0.889,-8.56 5.228,-16.669 10.658,-23.655c3.168,-4.076 6.937,-8.119 11.632,-9.583c0.739,-0.231 1.326,-0.371 2.241,-0.36Zm-0.134,1.172c-3.279,0.052 -6.223,2.482 -8.83,5.007c-6.854,6.637 -11.905,15.464 -13.937,24.721c-0.157,0.717 -0.289,1.439 -0.386,2.166c-0.075,0.563 -0.13,1.129 -0.159,1.697c-0.023,0.452 -0.031,0.905 -0.017,1.358c0.01,0.354 0.033,0.708 0.072,1.06c0.029,0.269 0.068,0.537 0.117,0.803c0.037,0.197 0.08,0.393 0.13,0.588c0.041,0.158 0.087,0.315 0.139,0.471c0.409,1.233 1.463,2.411 2.878,2.45c3.301,0.09 6.409,-2.317 9.096,-4.933c4.717,-4.591 8.232,-10.36 10.978,-16.424c2.216,-4.896 4.243,-10.218 3.111,-15.607c-0.043,-0.204 -0.093,-0.406 -0.15,-0.606c-0.047,-0.163 -0.1,-0.324 -0.158,-0.483c-0.44,-1.199 -1.475,-2.271 -2.884,-2.268Z"
+                          style="fill: #00d8ff"
+                        ></path>
+                        <path
+                          d="M22.109,10.747c3.564,0.069 6.765,2.488 9.607,5.197c5.186,4.943 9.011,11.231 11.913,17.849c2.248,5.127 4.316,10.882 2.478,16.292c-0.579,1.705 -2.044,3.265 -3.997,3.305c-3.581,0.072 -6.9,-2.532 -9.78,-5.335c-7.225,-7.034 -12.589,-16.32 -14.427,-26.168c-0.132,-0.704 -0.237,-1.414 -0.309,-2.127c-0.059,-0.582 -0.096,-1.167 -0.106,-1.752c-0.008,-0.472 0.002,-0.944 0.035,-1.414c0.022,-0.314 0.054,-0.626 0.097,-0.937c0.041,-0.292 0.093,-0.583 0.158,-0.871c0.043,-0.191 0.091,-0.38 0.146,-0.568c0.539,-1.843 1.941,-3.485 4.185,-3.471Zm-0.135,1.173c-2.087,0.046 -3.042,2.507 -3.234,4.234c-0.039,0.354 -0.063,0.711 -0.074,1.068c-0.014,0.456 -0.008,0.913 0.015,1.369c0.328,6.599 3.278,12.979 6.838,18.821c3.352,5.5 7.4,10.978 12.968,13.794c1.608,0.813 3.562,1.452 4.951,0.684c1.742,-0.964 1.956,-3.261 2.049,-4.973c0.025,-0.466 0.028,-0.934 0.013,-1.401c-0.018,-0.586 -0.064,-1.171 -0.133,-1.753c-0.642,-5.437 -3.05,-10.582 -5.816,-15.444c-3.442,-6.048 -7.659,-12.076 -13.627,-15.225c-1.236,-0.652 -2.574,-1.185 -3.95,-1.174Z"
+                          style="fill: #00d8ff"
+                        ></path>
+                      </g>
+                      <g id="check-selected"></g>
+                      <g id="turn-off"></g>
+                      <g id="code-block"></g>
+                      <g id="user"></g>
+                      <g id="coffee-bean"></g>
+                      <g id="coffee-beans"><g id="coffee-bean1" serif:id="coffee-bean"></g></g>
+                      <g id="coffee-bean-filled"></g>
+                      <g id="coffee-beans-filled">
+                        <g id="coffee-bean2" serif:id="coffee-bean"></g>
+                      </g>
+                      <g id="clipboard"></g>
+                      <g id="clipboard-paste"></g>
+                      <g id="clipboard-copy"></g>
+                      <g id="Layer1"></g>
+                    </g>
+                  </g>
+                </svg>
+                <!--typescript logo-->
+                <svg
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <title>file_type_typescript_official</title>
+                    <rect
+                      x="2"
+                      y="2"
+                      width="28"
+                      height="28"
+                      rx="1.312"
+                      style="fill: #3178c6"
+                    ></rect>
+                    <path
+                      d="M18.245,23.759v3.068a6.492,6.492,0,0,0,1.764.575,11.56,11.56,0,0,0,2.146.192,9.968,9.968,0,0,0,2.088-.211,5.11,5.11,0,0,0,1.735-.7,3.542,3.542,0,0,0,1.181-1.266,4.469,4.469,0,0,0,.186-3.394,3.409,3.409,0,0,0-.717-1.117,5.236,5.236,0,0,0-1.123-.877,12.027,12.027,0,0,0-1.477-.734q-.6-.249-1.08-.484a5.5,5.5,0,0,1-.813-.479,2.089,2.089,0,0,1-.516-.518,1.091,1.091,0,0,1-.181-.618,1.039,1.039,0,0,1,.162-.571,1.4,1.4,0,0,1,.459-.436,2.439,2.439,0,0,1,.726-.283,4.211,4.211,0,0,1,.956-.1,5.942,5.942,0,0,1,.808.058,6.292,6.292,0,0,1,.856.177,5.994,5.994,0,0,1,.836.3,4.657,4.657,0,0,1,.751.422V13.9a7.509,7.509,0,0,0-1.525-.4,12.426,12.426,0,0,0-1.9-.129,8.767,8.767,0,0,0-2.064.235,5.239,5.239,0,0,0-1.716.733,3.655,3.655,0,0,0-1.171,1.271,3.731,3.731,0,0,0-.431,1.845,3.588,3.588,0,0,0,.789,2.34,6,6,0,0,0,2.395,1.639q.63.26,1.175.509a6.458,6.458,0,0,1,.942.517,2.463,2.463,0,0,1,.626.585,1.2,1.2,0,0,1,.23.719,1.1,1.1,0,0,1-.144.552,1.269,1.269,0,0,1-.435.441,2.381,2.381,0,0,1-.726.292,4.377,4.377,0,0,1-1.018.105,5.773,5.773,0,0,1-1.969-.35A5.874,5.874,0,0,1,18.245,23.759Zm-5.154-7.638h4V13.594H5.938v2.527H9.92V27.375h3.171Z"
+                      style="fill: #ffffff; fill-rule: evenodd"
+                    ></path>
+                  </g>
+                </svg>
+                <!--tailwindcss logo-->
+                <svg
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <title>file_type_tailwind</title>
+                    <path
+                      d="M9,13.7q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q11.1,10.9,9,13.7ZM2,22.1q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q4.1,19.3,2,22.1Z"
+                      style="fill: #44a8b3"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <p class="description">Age calculator app challenge in frontendmentor.io website</p>
+            <div class="project-links-container">
+              <a id="liveLink" href="https://age-calculator-app-bvv.netlify.app/" target="_blank"
+                >Live</a
+              >
+              <a
+                id="srcCodeLink"
+                href="https://github.com/br14nn/age-calculator-app"
+                target="_blank"
+                >&lt;&#47;&gt;</a
+              >
+            </div>
+          </figure>
+          <!--3rd project item-->
+          <figure class="project-item" data-aos="flip-right" data-aos-duration="1000">
+            <img class="project-thumbnail" src="./images/project3.png" alt="project thumbnail" />
+            <div class="caption-container">
+              <figcaption>Clothing Store (Frontend Only)</figcaption>
+              <div class="techs-used-container">
+                <!--Vite logo-->
+                <svg
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <title>file_type_vite</title>
+                    <path
+                      d="M29.8836 6.146L16.7418 29.6457c-.2714.4851-.9684.488-1.2439.0052L2.0956 6.1482c-.3-.5262.1498-1.1635.746-1.057l13.156 2.3516a.7144.7144 0 00.2537-.0004l12.8808-2.3478c.5942-.1083 1.0463.5241.7515 1.0513z"
+                      fill="url(#paint0_linear)"
+                    ></path>
+                    <path
+                      d="M22.2644 2.0069l-9.7253 1.9056a.3571.3571 0 00-.2879.3294l-.5982 10.1038c-.014.238.2045.4227.4367.3691l2.7077-.6248c.2534-.0585.4823.1647.4302.4194l-.8044 3.9393c-.0542.265.1947.4918.4536.4132l1.6724-.5082c.2593-.0787.5084.1487.4536.414l-1.2784 6.1877c-.08.387.4348.598.6495.2662L16.5173 25 24.442 9.1848c.1327-.2648-.096-.5667-.387-.5106l-2.787.5379c-.262.0505-.4848-.1934-.4109-.4497l1.8191-6.306c.074-.2568-.1496-.5009-.4118-.4495z"
+                      fill="url(#paint1_linear)"
+                    ></path>
+                    <defs id="defs50">
+                      <linearGradient
+                        id="paint0_linear"
+                        x1="6.0002"
+                        y1="32.9999"
+                        x2="235"
+                        y2="344"
+                        gradientUnits="userSpaceOnUse"
+                        gradientTransform="matrix(.07142 0 0 .07142 1.3398 1.8944)"
+                      >
+                        <stop stop-color="#41D1FF" id="stop38"></stop>
+                        <stop offset="1" stop-color="#BD34FE" id="stop40"></stop>
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear"
+                        x1="194.651"
+                        y1="8.8182"
+                        x2="236.076"
+                        y2="292.989"
+                        gradientUnits="userSpaceOnUse"
+                        gradientTransform="matrix(.07142 0 0 .07142 1.3398 1.8944)"
+                      >
+                        <stop stop-color="#FFEA83" id="stop43"></stop>
+                        <stop offset=".0833" stop-color="#FFDD35" id="stop45"></stop>
+                        <stop offset="1" stop-color="#FFA800" id="stop47"></stop>
+                      </linearGradient>
+                    </defs>
+                  </g>
+                </svg>
+                <!--React Logo-->
+                <svg
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 64 64"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xml:space="preserve"
+                  xmlns:serif="http://www.serif.com/"
+                  style="
+                    fill-rule: evenodd;
+                    clip-rule: evenodd;
+                    stroke-linejoin: round;
+                    stroke-miterlimit: 2;
+                  "
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <rect
+                      id="Icons"
+                      x="-1088"
+                      y="-64"
+                      width="1280"
+                      height="800"
+                      style="fill: none"
+                    ></rect>
+                    <g id="Icons1" serif:id="Icons">
+                      <g id="Strike"></g>
+                      <g id="H1"></g>
+                      <g id="H2"></g>
+                      <g id="H3"></g>
+                      <g id="list-ul"></g>
+                      <g id="hamburger-1"></g>
+                      <g id="hamburger-2"></g>
+                      <g id="list-ol"></g>
+                      <g id="list-task"></g>
+                      <g id="trash"></g>
+                      <g id="vertical-menu"></g>
+                      <g id="horizontal-menu"></g>
+                      <g id="sidebar-2"></g>
+                      <g id="Pen"></g>
+                      <g id="Pen1" serif:id="Pen"></g>
+                      <g id="clock"></g>
+                      <g id="external-link"></g>
+                      <g id="hr"></g>
+                      <g id="info"></g>
+                      <g id="warning"></g>
+                      <g id="plus-circle"></g>
+                      <g id="minus-circle"></g>
+                      <g id="vue"></g>
+                      <g id="cog"></g>
+                      <g id="logo"></g>
+                      <g id="radio-check"></g>
+                      <g id="eye-slash"></g>
+                      <g id="eye"></g>
+                      <g id="toggle-off"></g>
+                      <g id="shredder"></g>
+                      <g id="spinner--loading--dots-" serif:id="spinner [loading, dots]"></g>
+                      <g id="react">
+                        <circle cx="32.001" cy="31.955" r="4.478" style="fill: #00d8ff"></circle>
+                        <path
+                          d="M32.33,22.516c7.635,0.052 15.965,0.609 21.683,5.708c0.168,0.15 0.33,0.306 0.488,0.467c1.349,1.375 2.054,3.595 0.965,5.422c-2.234,3.751 -7.23,5.387 -12.067,6.394c-7.234,1.506 -14.798,1.518 -22.029,0.192c-4.161,-0.764 -8.416,-2.103 -11.373,-4.904c-1.151,-1.09 -2.135,-2.524 -1.981,-4.12c0.25,-2.582 2.727,-4.239 4.812,-5.361c5.791,-3.116 12.847,-3.813 19.502,-3.798Zm-0.554,1.173c-7.224,0.049 -15.043,0.51 -20.621,5.129c-0.195,0.161 -0.383,0.33 -0.564,0.507c-0.117,0.114 -0.23,0.233 -0.339,0.355c-0.979,1.1 -1.316,2.867 -0.392,4.188c0.93,1.329 2.342,2.288 3.796,3.07c5.438,2.924 11.864,3.443 18.129,3.465c6.343,0.023 12.884,-0.555 18.487,-3.452c2.232,-1.155 4.744,-2.851 4.655,-5.035c-0.082,-2.004 -2.036,-3.242 -3.499,-4.126c-0.396,-0.239 -0.803,-0.46 -1.216,-0.668c-5.562,-2.787 -12.08,-3.447 -18.436,-3.433Z"
+                          style="fill: #00d8ff"
+                        ></path>
+                        <path
+                          d="M42.115,10.703c2.793,0.071 4.24,3.429 4.431,5.909c0.038,0.493 0.052,0.988 0.046,1.483c-0.006,0.536 -0.035,1.072 -0.082,1.606c-0.589,6.612 -3.608,12.909 -7.163,18.724c-3.477,5.688 -7.717,11.36 -13.485,13.996c-1.907,0.872 -4.175,1.41 -5.863,0.437c-2.314,-1.333 -2.567,-4.451 -2.524,-6.816c0.011,-0.581 0.049,-1.162 0.109,-1.741c0.889,-8.56 5.228,-16.669 10.658,-23.655c3.168,-4.076 6.937,-8.119 11.632,-9.583c0.739,-0.231 1.326,-0.371 2.241,-0.36Zm-0.134,1.172c-3.279,0.052 -6.223,2.482 -8.83,5.007c-6.854,6.637 -11.905,15.464 -13.937,24.721c-0.157,0.717 -0.289,1.439 -0.386,2.166c-0.075,0.563 -0.13,1.129 -0.159,1.697c-0.023,0.452 -0.031,0.905 -0.017,1.358c0.01,0.354 0.033,0.708 0.072,1.06c0.029,0.269 0.068,0.537 0.117,0.803c0.037,0.197 0.08,0.393 0.13,0.588c0.041,0.158 0.087,0.315 0.139,0.471c0.409,1.233 1.463,2.411 2.878,2.45c3.301,0.09 6.409,-2.317 9.096,-4.933c4.717,-4.591 8.232,-10.36 10.978,-16.424c2.216,-4.896 4.243,-10.218 3.111,-15.607c-0.043,-0.204 -0.093,-0.406 -0.15,-0.606c-0.047,-0.163 -0.1,-0.324 -0.158,-0.483c-0.44,-1.199 -1.475,-2.271 -2.884,-2.268Z"
+                          style="fill: #00d8ff"
+                        ></path>
+                        <path
+                          d="M22.109,10.747c3.564,0.069 6.765,2.488 9.607,5.197c5.186,4.943 9.011,11.231 11.913,17.849c2.248,5.127 4.316,10.882 2.478,16.292c-0.579,1.705 -2.044,3.265 -3.997,3.305c-3.581,0.072 -6.9,-2.532 -9.78,-5.335c-7.225,-7.034 -12.589,-16.32 -14.427,-26.168c-0.132,-0.704 -0.237,-1.414 -0.309,-2.127c-0.059,-0.582 -0.096,-1.167 -0.106,-1.752c-0.008,-0.472 0.002,-0.944 0.035,-1.414c0.022,-0.314 0.054,-0.626 0.097,-0.937c0.041,-0.292 0.093,-0.583 0.158,-0.871c0.043,-0.191 0.091,-0.38 0.146,-0.568c0.539,-1.843 1.941,-3.485 4.185,-3.471Zm-0.135,1.173c-2.087,0.046 -3.042,2.507 -3.234,4.234c-0.039,0.354 -0.063,0.711 -0.074,1.068c-0.014,0.456 -0.008,0.913 0.015,1.369c0.328,6.599 3.278,12.979 6.838,18.821c3.352,5.5 7.4,10.978 12.968,13.794c1.608,0.813 3.562,1.452 4.951,0.684c1.742,-0.964 1.956,-3.261 2.049,-4.973c0.025,-0.466 0.028,-0.934 0.013,-1.401c-0.018,-0.586 -0.064,-1.171 -0.133,-1.753c-0.642,-5.437 -3.05,-10.582 -5.816,-15.444c-3.442,-6.048 -7.659,-12.076 -13.627,-15.225c-1.236,-0.652 -2.574,-1.185 -3.95,-1.174Z"
+                          style="fill: #00d8ff"
+                        ></path>
+                      </g>
+                      <g id="check-selected"></g>
+                      <g id="turn-off"></g>
+                      <g id="code-block"></g>
+                      <g id="user"></g>
+                      <g id="coffee-bean"></g>
+                      <g id="coffee-beans"><g id="coffee-bean1" serif:id="coffee-bean"></g></g>
+                      <g id="coffee-bean-filled"></g>
+                      <g id="coffee-beans-filled">
+                        <g id="coffee-bean2" serif:id="coffee-bean"></g>
+                      </g>
+                      <g id="clipboard"></g>
+                      <g id="clipboard-paste"></g>
+                      <g id="clipboard-copy"></g>
+                      <g id="Layer1"></g>
+                    </g>
+                  </g>
+                </svg>
+                <!--typescript logo-->
+                <svg
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <title>file_type_typescript_official</title>
+                    <rect
+                      x="2"
+                      y="2"
+                      width="28"
+                      height="28"
+                      rx="1.312"
+                      style="fill: #3178c6"
+                    ></rect>
+                    <path
+                      d="M18.245,23.759v3.068a6.492,6.492,0,0,0,1.764.575,11.56,11.56,0,0,0,2.146.192,9.968,9.968,0,0,0,2.088-.211,5.11,5.11,0,0,0,1.735-.7,3.542,3.542,0,0,0,1.181-1.266,4.469,4.469,0,0,0,.186-3.394,3.409,3.409,0,0,0-.717-1.117,5.236,5.236,0,0,0-1.123-.877,12.027,12.027,0,0,0-1.477-.734q-.6-.249-1.08-.484a5.5,5.5,0,0,1-.813-.479,2.089,2.089,0,0,1-.516-.518,1.091,1.091,0,0,1-.181-.618,1.039,1.039,0,0,1,.162-.571,1.4,1.4,0,0,1,.459-.436,2.439,2.439,0,0,1,.726-.283,4.211,4.211,0,0,1,.956-.1,5.942,5.942,0,0,1,.808.058,6.292,6.292,0,0,1,.856.177,5.994,5.994,0,0,1,.836.3,4.657,4.657,0,0,1,.751.422V13.9a7.509,7.509,0,0,0-1.525-.4,12.426,12.426,0,0,0-1.9-.129,8.767,8.767,0,0,0-2.064.235,5.239,5.239,0,0,0-1.716.733,3.655,3.655,0,0,0-1.171,1.271,3.731,3.731,0,0,0-.431,1.845,3.588,3.588,0,0,0,.789,2.34,6,6,0,0,0,2.395,1.639q.63.26,1.175.509a6.458,6.458,0,0,1,.942.517,2.463,2.463,0,0,1,.626.585,1.2,1.2,0,0,1,.23.719,1.1,1.1,0,0,1-.144.552,1.269,1.269,0,0,1-.435.441,2.381,2.381,0,0,1-.726.292,4.377,4.377,0,0,1-1.018.105,5.773,5.773,0,0,1-1.969-.35A5.874,5.874,0,0,1,18.245,23.759Zm-5.154-7.638h4V13.594H5.938v2.527H9.92V27.375h3.171Z"
+                      style="fill: #ffffff; fill-rule: evenodd"
+                    ></path>
+                  </g>
+                </svg>
+                <!--tailwindcss logo-->
+                <svg
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <title>file_type_tailwind</title>
+                    <path
+                      d="M9,13.7q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q11.1,10.9,9,13.7ZM2,22.1q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q4.1,19.3,2,22.1Z"
+                      style="fill: #44a8b3"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <p class="description">Wala lang himo himo ra rako 😂</p>
+            <div class="project-links-container">
+              <a id="liveLink" href="https://citrus-clothing.netlify.app/" target="_blank">Live</a>
+              <a
+                id="srcCodeLink"
+                href="https://github.com/br14nn/citrus-clothing-website"
+                target="_blank"
+                >&lt;&#47;&gt;</a
+              >
+            </div>
+          </figure>
+          <!--4th project item-->
+          <figure
+            class="project-item"
+            data-aos="flip-right"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <img class="project-thumbnail" src="./images/project4.png" alt="project thumbnail" />
+            <div class="caption-container">
+              <figcaption>Room Landing Page</figcaption>
+              <div class="techs-used-container">
+                <!--Next.js logo-->
+                <svg
+                  fill="#000000"
+                  width="20px"
+                  height="20px"
+                  viewBox="-3.2 -3.2 38.40 38.40"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    id="SVGRepo_bgCarrier"
+                    stroke-width="0"
+                    transform="translate(4.16,4.16), scale(0.74)"
+                  >
+                    <rect
+                      x="-3.2"
+                      y="-3.2"
+                      width="38.40"
+                      height="38.40"
+                      rx="19.2"
+                      fill="#ffffff"
+                      strokewidth="0"
+                    ></rect>
+                  </g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M23.749 30.005c-0.119 0.063-0.109 0.083 0.005 0.025 0.037-0.015 0.068-0.036 0.095-0.061 0-0.021 0-0.021-0.1 0.036zM23.989 29.875c-0.057 0.047-0.057 0.047 0.011 0.016 0.036-0.021 0.068-0.041 0.068-0.047 0-0.027-0.016-0.021-0.079 0.031zM24.145 29.781c-0.057 0.047-0.057 0.047 0.011 0.016 0.037-0.021 0.068-0.043 0.068-0.048 0-0.025-0.016-0.020-0.079 0.032zM24.303 29.688c-0.057 0.047-0.057 0.047 0.009 0.015 0.037-0.020 0.068-0.041 0.068-0.047 0-0.025-0.016-0.020-0.077 0.032zM24.516 29.547c-0.109 0.073-0.147 0.12-0.047 0.068 0.067-0.041 0.181-0.131 0.161-0.131-0.043 0.016-0.079 0.043-0.115 0.063zM14.953 0.011c-0.073 0.005-0.292 0.025-0.484 0.041-4.548 0.412-8.803 2.86-11.5 6.631-1.491 2.067-2.459 4.468-2.824 6.989-0.129 0.88-0.145 1.14-0.145 2.333 0 1.192 0.016 1.448 0.145 2.328 0.871 6.011 5.147 11.057 10.943 12.927 1.043 0.333 2.136 0.563 3.381 0.704 0.484 0.052 2.577 0.052 3.061 0 2.152-0.24 3.969-0.771 5.767-1.688 0.276-0.14 0.328-0.177 0.291-0.208-0.88-1.161-1.744-2.323-2.609-3.495l-2.557-3.453-3.203-4.745c-1.068-1.588-2.14-3.172-3.229-4.744-0.011 0-0.025 2.109-0.031 4.681-0.011 4.505-0.011 4.688-0.068 4.792-0.057 0.125-0.151 0.229-0.276 0.287-0.099 0.047-0.188 0.057-0.661 0.057h-0.541l-0.141-0.088c-0.088-0.057-0.161-0.136-0.208-0.229l-0.068-0.141 0.005-6.271 0.011-6.271 0.099-0.125c0.063-0.077 0.141-0.14 0.229-0.187 0.131-0.063 0.183-0.073 0.724-0.073 0.635 0 0.74 0.025 0.907 0.208 1.296 1.932 2.588 3.869 3.859 5.812 2.079 3.152 4.917 7.453 6.312 9.563l2.537 3.839 0.125-0.083c1.219-0.813 2.328-1.781 3.285-2.885 2.016-2.308 3.324-5.147 3.767-8.177 0.129-0.88 0.145-1.141 0.145-2.333 0-1.193-0.016-1.448-0.145-2.328-0.871-6.011-5.147-11.057-10.943-12.928-1.084-0.343-2.199-0.577-3.328-0.697-0.303-0.031-2.371-0.068-2.631-0.041zM21.5 9.688c0.151 0.072 0.265 0.208 0.317 0.364 0.027 0.084 0.032 1.823 0.027 5.74l-0.011 5.624-0.989-1.52-0.995-1.521v-4.083c0-2.647 0.011-4.131 0.025-4.204 0.047-0.167 0.161-0.307 0.313-0.395 0.124-0.063 0.172-0.068 0.667-0.068 0.463 0 0.541 0.005 0.645 0.063z"
+                    ></path>
+                  </g>
+                </svg>
+                <!--typescript logo-->
+                <svg
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <title>file_type_typescript_official</title>
+                    <rect
+                      x="2"
+                      y="2"
+                      width="28"
+                      height="28"
+                      rx="1.312"
+                      style="fill: #3178c6"
+                    ></rect>
+                    <path
+                      d="M18.245,23.759v3.068a6.492,6.492,0,0,0,1.764.575,11.56,11.56,0,0,0,2.146.192,9.968,9.968,0,0,0,2.088-.211,5.11,5.11,0,0,0,1.735-.7,3.542,3.542,0,0,0,1.181-1.266,4.469,4.469,0,0,0,.186-3.394,3.409,3.409,0,0,0-.717-1.117,5.236,5.236,0,0,0-1.123-.877,12.027,12.027,0,0,0-1.477-.734q-.6-.249-1.08-.484a5.5,5.5,0,0,1-.813-.479,2.089,2.089,0,0,1-.516-.518,1.091,1.091,0,0,1-.181-.618,1.039,1.039,0,0,1,.162-.571,1.4,1.4,0,0,1,.459-.436,2.439,2.439,0,0,1,.726-.283,4.211,4.211,0,0,1,.956-.1,5.942,5.942,0,0,1,.808.058,6.292,6.292,0,0,1,.856.177,5.994,5.994,0,0,1,.836.3,4.657,4.657,0,0,1,.751.422V13.9a7.509,7.509,0,0,0-1.525-.4,12.426,12.426,0,0,0-1.9-.129,8.767,8.767,0,0,0-2.064.235,5.239,5.239,0,0,0-1.716.733,3.655,3.655,0,0,0-1.171,1.271,3.731,3.731,0,0,0-.431,1.845,3.588,3.588,0,0,0,.789,2.34,6,6,0,0,0,2.395,1.639q.63.26,1.175.509a6.458,6.458,0,0,1,.942.517,2.463,2.463,0,0,1,.626.585,1.2,1.2,0,0,1,.23.719,1.1,1.1,0,0,1-.144.552,1.269,1.269,0,0,1-.435.441,2.381,2.381,0,0,1-.726.292,4.377,4.377,0,0,1-1.018.105,5.773,5.773,0,0,1-1.969-.35A5.874,5.874,0,0,1,18.245,23.759Zm-5.154-7.638h4V13.594H5.938v2.527H9.92V27.375h3.171Z"
+                      style="fill: #ffffff; fill-rule: evenodd"
+                    ></path>
+                  </g>
+                </svg>
+                <!--tailwindcss logo-->
+                <svg
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <title>file_type_tailwind</title>
+                    <path
+                      d="M9,13.7q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q11.1,10.9,9,13.7ZM2,22.1q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q4.1,19.3,2,22.1Z"
+                      style="fill: #44a8b3"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <p class="description">Room Landing Page challenge in frontendmentor.io website</p>
+            <div class="project-links-container">
+              <a id="liveLink" href="https://room-homepage-br14nn.vercel.app/" target="_blank"
+                >Live</a
+              >
+              <a id="srcCodeLink" href="https://github.com/br14nn/room-homepage" target="_blank"
+                >&lt;&#47;&gt;</a
+              >
+            </div>
+          </figure>
+        </div>
+      </section>
+      <section class="skills-sect">
+        <h1 class="title-sect" data-aos="fade-down" data-aos-duration="1000">SKILLS</h1>
+        <div class="divider-container" data-aos="zoom-in">
+          <hr class="left-piece" />
+          <div class="center-piece"></div>
+          <hr class="right-piece" />
+        </div>
+        <div style="height: 500px"></div>
+      </section>
+    </main>
+  </body>
+</html>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
