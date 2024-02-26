@@ -5,7 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>404: Page Not Found</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
+  <style>
+    .delay-1 {
+      animation-delay: 100ms;
+    }
+
+    .delay-2 {
+      animation-delay: 200ms;
+    }
+
+    .delay-3 {
+      animation-delay: 300ms;
+    }
+  </style>
   <body>
     <nav>
       <div class="inner-nav">
@@ -28,5 +45,14 @@
         </a>
       </div>
     </nav>
+
+    <main class="error-main">
+      <p class="title-404 animate__animated animate__fadeInDown">404</p>
+      <div class="page-not-found">
+        <p class="animate__animated animate__fadeInRight delay-1">PAGE</p>
+        <p class="animate__animated animate__fadeInRight delay-2">NOT</p>
+        <p class="animate__animated animate__fadeInRight delay-3">FOUND</p>
+      </div>
+    </main>
   </body>
 </html>
