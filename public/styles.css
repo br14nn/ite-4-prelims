@@ -114,7 +114,7 @@ nav {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 0 3rem;
+  gap: 1rem 3rem;
 }
 /*home page styles*/
 
@@ -283,5 +283,13 @@ nav {
 .project-links-container > a:hover {
   outline: 2px solid var(--text);
   outline-offset: 4px;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  justify-items: center;
+  gap: 3rem;
 }
 /*portfolio styles*/

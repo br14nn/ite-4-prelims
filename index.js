@@ -13,9 +13,15 @@ const server = http.createServer((req, res) => {
     path = "index.html";
   } else if (path === "portfolio") {
     path = "portfolio.html";
+  } else if (path === "about") {
+    path = "about.html";
+  } else if (path === "unique") {
+    path = "unique.html";
   } else if (path === "styles.css") {
     path = "styles.css";
   } else if (/\.png$/.test(path)) {
+    path = path;
+  } else if (/\.svg$/.test(path)) {
     path = path;
   } else {
     path = "error.html";
@@ -31,12 +37,14 @@ const server = http.createServer((req, res) => {
       res.end();
     } else {
       res.setHeader("X-Content-Type-Options", "nosniff");
-
+      // console.log(path);
       switch (path) {
         case "styles.css":
           res.writeHead(200, { "Content-type": "text/css" });
           break;
-        case "":
+        case /\.svg$/.test(path):
+          res.writeHead(200, { "Content-Type": "image/svg+xml" });
+        case /\.png$/.test(path):
           res.writeHead(200, { "Content-type": "image/png" });
           break;
         default:
