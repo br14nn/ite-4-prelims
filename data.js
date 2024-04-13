@@ -97,6 +97,68 @@ const portfolio = {
       ],
     },
   ],
+  skills: [
+    {
+      alt_text: "HTML",
+      img: "html-icon-svgrepo-com.png",
+    },
+    {
+      alt_text: "CSS",
+      img: "css-icon-svgrepo-com.png",
+    },
+    {
+      alt_text: "Javascript",
+      img: "javascript-icon-svgrepo-com.png",
+    },
+    {
+      alt_text: "Typescript",
+      img: "typescript-icon-svgrepo-com.png",
+    },
+    {
+      alt_text: "TailwindCSS",
+      img: "tailwindcss-icon-svgrepo-com.png",
+    },
+    {
+      alt_text: "NodeJS",
+      img: "nodejs-icon-svgrepo-com.png",
+    },
+    {
+      alt_text: "Express",
+      img: "express-icon-svgrepo-com.png",
+    },
+    {
+      alt_text: "React",
+      img: "react-icon-svgrepo-com.png",
+    },
+    {
+      alt_text: "NextJS",
+      img: "nextjs-icon-svgrepo-com.png",
+    },
+    {
+      alt_text: "Prisma",
+      img: "prisma-icon-svgrepo-com.png",
+    },
+    {
+      alt_text: "PostgreSQL",
+      img: "postgresql-icon-svgrepo-com.png",
+    },
+    {
+      alt_text: "MongoDB",
+      img: "mongodb-icon-svgrepo-com.png",
+    },
+    {
+      alt_text: "Git",
+      img: "git-icon-svgrepo-com.png",
+    },
+    {
+      alt_text: "Figma",
+      img: "figma-icon-svgrepo-com.png",
+    },
+    {
+      alt_text: "Postman",
+      img: "postman-icon-svgrepo-com.png",
+    },
+  ],
 };
 
 const about = {
