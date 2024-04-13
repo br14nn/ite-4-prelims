@@ -1,5 +1,5 @@
 const express = require("express");
-const { about } = require("./data");
+const { about, portfolio } = require("./data");
 
 const app = express();
 
@@ -13,7 +13,9 @@ app.get("/", (req, res) => {
 });
 
 app.get("/portfolio", (req, res) => {
-  res.render("portfolio");
+  res.render("portfolio", {
+    projects: portfolio.projects,
+  });
 });
 
 app.get("/about", (req, res) => {

@@ -43,183 +43,36 @@
           <hr class="right-piece" />
         </div>
         <div class="projects-container">
-          <!--1st project item-->
-          <figure class="project-item" data-aos="flip-right" data-aos-duration="1000">
-            <img class="project-thumbnail" src="./images/project1.png" alt="project thumbnail" />
-            <div class="caption-container">
-              <figcaption>Simple Inventoy Management System</figcaption>
-              <div class="techs-used-container">
-                <!--Next.js logo-->
-                <img
-                  src="./images/nextjs-icon-svgrepo-com.png"
-                  alt="Next Logo"
-                  width="20"
-                  height="20"
-                />
-                <!--Prisma Logo-->
-                <img
-                  src="./images/prisma-icon-svgrepo-com.png"
-                  alt="Prisma Logo"
-                  width="20"
-                  height="20"
-                />
-                <!--typescript logo-->
-                <img
-                  src="./images/typescript-icon-svgrepo-com.png"
-                  alt="Typescript Logo"
-                  width="20"
-                  height="20"
-                />
-                <!--tailwindcss logo-->
-                <img
-                  src="./images/tailwindcss-icon-svgrepo-com.png"
-                  alt="TailwindCSS Logo"
-                  width="20"
-                  height="20"
-                />
+          <% for(let i=0; i<projects.length;i++) { %>
+            <figure class="project-item" data-aos="flip-right" data-aos-duration="1000">
+              <img
+                class="project-thumbnail"
+                src="./images/projects/<%=projects[i].thumbnail%>"
+                alt="project thumbnail"
+              />
+              <div class="caption-container">
+                <figcaption><%=projects[i].title%></figcaption>
+                <div class="techs-used-container">
+                  <% for(let j=0; j<projects[i].tech_stacks.length; j++) { %>
+                    <img src="./images/<%=projects[i].tech_stacks[j].img%>" alt="projects[i].tech_stacks[j].alt_text" width="20" height="20" />
+                  <% } %>
+                </div>
               </div>
-            </div>
-            <p class="description">Finals exam in IT Elective 3</p>
-            <div class="project-links-container">
-              <a
-                id="liveLink"
-                href="https://simple-inventory-management-system.vercel.app/"
-                target="_blank"
-                >Live</a
-              >
-              <a
-                id="srcCodeLink"
-                href="https://github.com/br14nn/simple-inventory-management-system"
-                target="_blank"
-                >&lt;&#47;&gt;</a
-              >
-            </div>
-          </figure>
-          <!--2nd project item-->
-          <figure
-            class="project-item"
-            data-aos="flip-right"
-            data-aos-duration="1000"
-            data-aos-delay="300"
-          >
-            <img class="project-thumbnail" src="./images/project2.png" alt="project thumbnail" />
-            <div class="caption-container">
-              <figcaption>Age Calculator App</figcaption>
-              <div class="techs-used-container">
-                <!--Vite logo-->
-                <img src="./images/vite-svgrepo-com.png" alt="Vite Logo" width="20" height="20" />
-                <!--React Logo-->
-                <img src="./images/react-svgrepo-com.png" alt="React Logo" width="20" height="20" />
-                <!--typescript logo-->
-                <img
-                  src="./images/typescript-icon-svgrepo-com.png"
-                  alt="Typescript Logo"
-                  width="20"
-                  height="20"
-                />
-                <!--tailwindcss logo-->
-                <img
-                  src="./images/tailwindcss-icon-svgrepo-com.png"
-                  alt="TailwindCSS Logo"
-                  width="20"
-                  height="20"
-                />
+              <p class="description"><%=projects[i].description%></p>
+              <div class="project-links-container">
+                <a
+                  href="<%=projects[i].site_url%>"
+                  target="_blank"
+                  >Live</a
+                >
+                <a
+                  href="<%=projects[i].src_code_url%>"
+                  target="_blank"
+                  >&lt;&#47;&gt;</a
+                >
               </div>
-            </div>
-            <p class="description">Age calculator app challenge in frontendmentor.io website</p>
-            <div class="project-links-container">
-              <a id="liveLink" href="https://age-calculator-app-bvv.netlify.app/" target="_blank"
-                >Live</a
-              >
-              <a
-                id="srcCodeLink"
-                href="https://github.com/br14nn/age-calculator-app"
-                target="_blank"
-                >&lt;&#47;&gt;</a
-              >
-            </div>
-          </figure>
-          <!--3rd project item-->
-          <figure class="project-item" data-aos="flip-right" data-aos-duration="1000">
-            <img class="project-thumbnail" src="./images/project3.png" alt="project thumbnail" />
-            <div class="caption-container">
-              <figcaption>Clothing Store (Frontend Only)</figcaption>
-              <div class="techs-used-container">
-                <!--Vite logo-->
-                <img src="./images/vite-svgrepo-com.png" alt="Vite Logo" width="20" height="20" />
-                <!--React Logo-->
-                <img src="./images/react-svgrepo-com.png" alt="React Logo" width="20" height="20" />
-                <!--typescript logo-->
-                <img
-                  src="./images/typescript-icon-svgrepo-com.png"
-                  alt="Typescript Logo"
-                  width="20"
-                  height="20"
-                />
-                <!--tailwindcss logo-->
-                <img
-                  src="./images/tailwindcss-icon-svgrepo-com.png"
-                  alt="TailwindCSS Logo"
-                  width="20"
-                  height="20"
-                />
-              </div>
-            </div>
-            <p class="description">Wala lang himo himo ra rako 😂</p>
-            <div class="project-links-container">
-              <a id="liveLink" href="https://citrus-clothing.netlify.app/" target="_blank">Live</a>
-              <a
-                id="srcCodeLink"
-                href="https://github.com/br14nn/citrus-clothing-website"
-                target="_blank"
-                >&lt;&#47;&gt;</a
-              >
-            </div>
-          </figure>
-          <!--4th project item-->
-          <figure
-            class="project-item"
-            data-aos="flip-right"
-            data-aos-duration="1000"
-            data-aos-delay="300"
-          >
-            <img class="project-thumbnail" src="./images/project4.png" alt="project thumbnail" />
-            <div class="caption-container">
-              <figcaption>Room Landing Page</figcaption>
-              <div class="techs-used-container">
-                <!--Next.js logo-->
-                <img
-                  src="./images/nextjs-icon-svgrepo-com.png"
-                  alt="Next Logo"
-                  width="20"
-                  height="20"
-                />
-                <!--typescript logo-->
-                <img
-                  src="./images/typescript-icon-svgrepo-com.png"
-                  alt="Typescript Logo"
-                  width="20"
-                  height="20"
-                />
-                <!--tailwindcss logo-->
-                <img
-                  src="./images/tailwindcss-icon-svgrepo-com.png"
-                  alt="TailwindCSS Logo"
-                  width="20"
-                  height="20"
-                />
-              </div>
-            </div>
-            <p class="description">Room Landing Page challenge in frontendmentor.io website</p>
-            <div class="project-links-container">
-              <a id="liveLink" href="https://room-homepage-br14nn.vercel.app/" target="_blank"
-                >Live</a
-              >
-              <a id="srcCodeLink" href="https://github.com/br14nn/room-homepage" target="_blank"
-                >&lt;&#47;&gt;</a
-              >
-            </div>
-          </figure>
+            </figure>
+          <% } %>
         </div>
       </section>
       <section class="skills-sect">
